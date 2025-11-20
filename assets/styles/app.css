@@ -1,0 +1,16 @@
+body {
+    background-color: hotpink;
+}
+article{
+    background: #a78bfa;
+    align-items: center;
+    text-align: center;
+    margin:20px;
+    padding: 30px;
+}
+span{
+    background: darkorchid;
+    color :whitesmoke;
+    font-style: oblique;
+    padding:10px;
+}

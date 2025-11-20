@@ -1,0 +1,15 @@
+{% block body %}
+    <article>
+        {% if loop is defined and loop.first %}
+            <span>Nouveau</span>
+        {% endif %}
+        <h3 >{{ h.theme }}</h3>
+        <p >{{ h.ville|raw }} — {{ h.lieu }}</p>
+        <p>
+            Du {{ h.debut|date('d/m H:i') }} au {{ h.fin|date('d/m H:i') }}
+        </p>
+        {% if h.affiche %}
+            <img src="{{ asset(h.affiche) }}" alt="Affiche" >
+        {% endif %}
+    </article>
+{% endblock %}
