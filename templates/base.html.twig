@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{% block title %}Hackathon{% endblock %}</title>
-    {{ importmap('app') }}               {# Stimulus / your JS #}
-    {{ tailwind_css_tags() }}            {# Compiled Tailwind CSS #}
-</head>
-<body class="min-h-screen bg-zinc-900 text-zinc-50">
-<header class="border-b border-zinc-800">
-    <div class="mx-auto max-w-6xl p-4 flex items-center justify-between">
-        <a href="{{ path('app_home') }}" class="font-bold tracking-widest">HACKATHON</a>
-    </div>
-</header>
-<main class="mx-auto max-w-6xl p-4">
-    {% block body %}{% endblock %}
-</main>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}Welcome!{% endblock %}</title>
+
+        {% block stylesheets %}
+            <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        {% endblock %}
+
+
+    </head>
+    <body>
+        {% block body %}
+            <header>
+                <div >
+                    <a href="{{ path('app_demo') }}">Hackathon</a>
+                </div>
+            </header>
+        {% endblock %}
+
+    </body>
 </html>

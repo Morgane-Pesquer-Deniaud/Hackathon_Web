@@ -5,26 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="896b0c50-0648-4ecc-bfbe-9584228378bd" name="Changes" comment="First TP twig">
-      <change afterPath="$PROJECT_DIR$/postcss.config.mjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Service/ApiClient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/hackathon/_card.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Hackathon_Web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Hackathon_Web.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/controllers.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/controllers.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/stimulus_bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/stimulus_bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/styles/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/Partials/_card_hackathon.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Partials/_card_hackathon.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/demo/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/demo/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -261,7 +244,7 @@
       <workItem from="1764177392628" duration="11377000" />
       <workItem from="1764420526851" duration="16000" />
       <workItem from="1764510469877" duration="139000" />
-      <workItem from="1765437247681" duration="2666000" />
+      <workItem from="1765437247681" duration="5339000" />
     </task>
     <task id="LOCAL-00001" summary="First TP twig">
       <option name="closed" value="true" />
@@ -287,7 +270,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764160572205</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="First TP twig">
+      <option name="closed" value="true" />
+      <created>1765439923127</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1765439923128</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
