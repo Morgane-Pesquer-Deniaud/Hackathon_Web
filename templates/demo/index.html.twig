@@ -7,6 +7,7 @@
     .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
     .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
 </style>
+    <h1 class="text-3xl font-bold bg-pink-950 text-white underline">      Hello world!    </h1>
 
 <div class="example-wrapper">
     <h1>Hello {{ controller_name }}! ✅</h1>
@@ -31,7 +32,6 @@
                         <p>Il n'y a pas d'affiche disponible pour le hackathon n°{{ loop.index }}</p>
                     {% else %}
                         <p>Il y a une affiche disponible pour le hackathon n°{{ loop.index }}</p>
-                        <img src="{{h.affiche }}" alt="|Affiche|" width="120">
                     {% endif %}
 
                     {% if loop.first %}
@@ -48,10 +48,29 @@
             {% endfor %}
         </div>
 
-
     {% else %}
         <a href="#">Se Connecter !</a>
     {% endif %}
+
+    <div data-controller="flip"
+         data-action="mouseenter->flip#flip"
+         class="w-64 h-40 cursor-pointer bg-pink-950">
+
+
+        <div class="card-inner w-64 h-40">
+
+            <!-- FACE AVANT -->
+            <div class="card-front ">
+                AVANT
+            </div>
+
+            <!-- FACE ARRIÈRE -->
+            <div class="card-back">
+                ARRIÈRE
+            </div>
+
+        </div>
+    </div>
 
 
     {% import 'macros/_ui.twig' as ui %}

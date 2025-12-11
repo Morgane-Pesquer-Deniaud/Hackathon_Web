@@ -1,0 +1,12 @@
+<div class="card p-5 hover:scale-[1.02] transition-all duration-200 hover:shadow-xl">
+    <h2 class="text-xl font-semibold mb-2">{{ h.theme }}</h2>
+    <p class="muted mb-1">{{ h.ville }} — {{ h.lieu }}</p>
+    <p class="text-sm mb-2">
+        📅 {{ h.dateHeureDebut|date('d/m/Y H:i') }} → {{ h.dateHeureFin|date('d/m/Y H:i') }}
+    </p>
+
+    <a href="{{ path('app_hackathon_show', { id: h.id }) }}"
+       class="btn btn-primary mt-3 w-full text-center">
+        Voir le hackathon
+    </a>
+</div>

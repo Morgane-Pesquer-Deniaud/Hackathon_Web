@@ -9,7 +9,6 @@
             Du {{ h.debut|date('d/m H:i') }} au {{ h.fin|date('d/m H:i') }}
         </p>
         {% if h.affiche %}
-            <img src="{{ asset(h.affiche) }}" alt="Affiche" >
         {% endif %}
     </article>
 {% endblock %}
