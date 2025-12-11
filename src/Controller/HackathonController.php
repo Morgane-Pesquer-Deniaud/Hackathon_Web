@@ -12,10 +12,9 @@ final class HackathonController extends AbstractController{
     #[Route('/', name: 'app_home', methods: ['GET'])]
     public function index(ApiClient $api, RequestStack $stack): Response
     {
+
         try {
-// TODO 1 : appeler l’API pour récupérer la liste des hackathons
             $list = $api->get('/api/hackathons', withAuth: false);
-// TODO 2 : extraire le tableau de hackathons
             $hackathons = $list['hydra:member'] ?? $list['member'] ?? [];
         } catch (Throwable $e) {
             $hackathons = [];
